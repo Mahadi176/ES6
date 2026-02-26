@@ -4,3 +4,11 @@ function add(num1,num2=2){
 }
 
 add(5,4)
+
+
+function fullName(name1,name2=''){
+    const name = name1 + ' ' + name2;
+    console.log(name)
+}
+
+fullName('kashem')
