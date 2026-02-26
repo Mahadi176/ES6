@@ -12,3 +12,13 @@ function fullName(name1,name2=''){
 }
 
 fullName('kashem')
+
+
+
+
+function multiply(num1,num2=1){
+        const multi = num1*num2;
+        console.log(multi)
+}
+
+multiply(4)
