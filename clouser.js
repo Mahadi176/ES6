@@ -7,3 +7,12 @@ function counter(){
 
     return increment;
 }
+
+const count1 = counter();
+
+count1()
+count1()
+count1()
+count1()
+count1()
+count1()
