@@ -8,3 +8,7 @@ const products = [
 
  const fun = products.find(pd => pd.name[0] === 'x');
  console.log(fun)
+
+ const done = products.find(pd => pd.price > 25000)
+
+ console.log(done)
