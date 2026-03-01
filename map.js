@@ -5,3 +5,9 @@ const squared = number.map(number => number*number)
 console.log(doubled)
 console.log(squared)
 console.log(number.length*squared.length)
+
+const friends = ['Abed','Babed','Caved','Dabed'];
+
+const firstLetter = friends.map(frd => frd[0]);
+
+console.log(firstLetter)
